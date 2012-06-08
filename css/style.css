@@ -39,6 +39,14 @@ hr{
   margin: 0px 0px 20px 0px;
 }
 
+a{
+  color: #1885ae;
+}
+a:hover{
+  color: #25b4ea;
+}
+
+
 /*==================== TOPMOST ====================*/ 
 #topmost{
   background: #0f8fba;
@@ -82,7 +90,7 @@ hr{
 
 #member-area{
   float: right;
-  width: 415px;
+  width: 416px;
 }
 
 #member-area-user a{
@@ -439,7 +447,18 @@ hr{
 }
 
 .search-results li{
-  line-height: 20px;
+  /*line-height: 20px;*/
+  list-style: none;
+}
+
+.search-results-img{
+  float: left;
+  margin: 0px 10px 10px 0px;
+}
+
+.search-results-desc{
+  width: 500px;
+  float: left;
 }
 
 
