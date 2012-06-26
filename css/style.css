@@ -46,6 +46,13 @@ a:hover{
   color: #25b4ea;
 }
 
+.white-link a{
+  color: #FFFFFF;
+}
+
+.white-link a:hover{
+  color: #CCCCCC;
+}
 
 /*==================== TOPMOST ====================*/ 
 #topmost{
